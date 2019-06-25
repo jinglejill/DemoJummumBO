@@ -21,7 +21,7 @@ export class BranchSettingScreen extends Component
   showActionSheet = () => {
     this.ActionSheet.show()
   }
-
+  //test comment git
   constructor(props)
   {
     super(props);
