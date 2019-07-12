@@ -374,14 +374,10 @@ const logInStyles = StyleSheet.create({
     margin:5
   },
   rememberMeButton: {
-    // fontFamily: "Prompt-SemiBold",
     backgroundColor: "transparent",
-    // opacity: 0,
-    // width: 260,
     height: 40,
     borderColor: "transparent",
     borderWidth: 0,
-    // margin:5
   },
 });
 

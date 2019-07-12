@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, FlatList,SectionList, Dimensions, TouchableWith
 import ScrollableTabView from 'react-native-scrollable-tab-view';
 import TabBar from "react-native-underline-tabbar";
 import DefaultPreference from 'react-native-default-preference';
-import { SearchBar } from 'react-native-elements';
 import DraggableFlatList from 'react-native-draggable-flatlist';
 import SortableGrid from 'react-native-sortable-grid'
 import Spinner from 'react-native-spinkit';

@@ -286,10 +286,10 @@ export class BranchSettingScreen extends Component
         <Text style={styles.label}>สถานะ</Text>
         <SelectInput
           style={styles.selectInput}
-          labelStyle={{fontFamily: 'Prompt-Regular',lineHeight:28}}
+          labelStyle={{fontFamily: 'Prompt-Regular',lineHeight:28,fontWeight:'normal'}}
           buttonsTextStyle={styles.buttonText}
           buttonsViewStyle={{backgroundColor:"#ECECEC",borderColor:"#C7C7C7"}}
-          pickerItemStyle={{fontFamily:"Prompt-Regular"}}
+          pickerItemStyle={{fontFamily:"Prompt-Regular",fontWeight:'normal'}}
           pickerViewStyle={{backgroundColor:"#C7C7C7",height:150}}
           onValueChange={(value)=>{this.setState({status:value})}}
           value={this.state.status}
@@ -375,7 +375,7 @@ const styles = StyleSheet.create({
     color: '#464646',
   },
   checkBoxContainer: {backgroundColor:"#ffffff",borderWidth:0},
-  checkBoxText: {fontFamily:"Prompt-Regular",color: '#464646',},
+  checkBoxText: {fontFamily:"Prompt-Regular",color: '#464646',fontWeight:"normal"},
   textInput:
   {
     fontFamily:"Prompt-Regular",
@@ -416,7 +416,8 @@ const styles = StyleSheet.create({
   buttonText:
   {
     fontFamily: 'Prompt-SemiBold',
-    color: '#005A50'
+    color: '#005A50',
+    fontWeight:'normal'
   },
   actionSheet:
   {

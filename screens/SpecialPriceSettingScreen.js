@@ -653,7 +653,9 @@ export class SpecialPriceSettingScreen extends Component
           />
         </View>
         <Text style={styles.label}></Text>
-        <Text style={styles.label}>วันที่ร่วมส่วนลด</Text><Text style={[styles.label,{paddingLeft:0,color:"#FF3C4B"}]}> *</Text>
+        <View style={{display:'flex',flexDirection:'row'}}>
+          <Text style={styles.label}>วันที่ร่วมส่วนลด</Text><Text style={[styles.label,{paddingLeft:0,color:"#FF3C4B"}]}> *</Text>
+        </View>
         <View style={{display:'flex',flexDirection:'row',flexWrap:'wrap',justifyContent:'flex-start',left:15, width:Dimensions.get('window').width-2*20}}>
           <TouchableHighlight underlayColor='transparent' onPress={this.setMonday} style={[styles.buttonDay,{backgroundColor:this.state.mondaySelected?"#64DCC8":"#FFFFFF"}]}>
             <Text style={[styles.textDay,{color:this.state.mondaySelected?"#FFFFFF":"#64DCC8"}]}>จันทร์</Text>
@@ -728,7 +730,7 @@ const styles = StyleSheet.create({
     color: "#005A50"
   },
   checkBoxContainer: {backgroundColor:"#ffffff",borderWidth:0},
-  checkBoxText: {fontFamily:"Prompt-Regular",color: '#464646',},
+  checkBoxText: {fontFamily:"Prompt-Regular",color: '#464646',fontWeight:"normal"},
   textInput:
   {
     fontFamily:"Prompt-Regular",

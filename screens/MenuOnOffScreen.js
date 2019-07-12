@@ -338,6 +338,8 @@ export class MenuOnOffScreen extends Component
  inputContainerStyle= {{backgroundColor:"transparent",borderWidth:0,borderRadius:5,borderColor:"#FF3C4B"}}
 
       inputStyle={{fontFamily:"Prompt-Regular"}}
+      icon = {{type: 'material-community', color: '#86939e', name: 'share' }}
+      clearIcon = {{type: 'material-community', color: '#86939e', name: 'share' }}
       placeholder="ค้นหาเมนู"
       onChangeText={this.updateSearch}
       value={this.state.search}

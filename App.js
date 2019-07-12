@@ -71,6 +71,7 @@ class LaunchScreen extends Component
       });
   }
   render() {
+    console.log("app render");
     return (
       // <View style={styles.root}>
       <View style={styles.greenBackground} >
@@ -201,6 +202,7 @@ const navigationOptions = ({ navigation }) => ({
     headerTitleStyle: {
           fontFamily: "Prompt-SemiBold",
           fontSize: 18,
+          fontWeight: 'normal'
         },
     swipeEnabled: false,
     animationEnabled:false,
@@ -245,6 +247,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         swipeEnabled: false,
         animationEnabled:false,
@@ -259,6 +262,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -276,6 +280,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -293,6 +298,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -309,6 +315,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -334,6 +341,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         swipeEnabled: false,
         animationEnabled:false,
@@ -350,6 +358,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         swipeEnabled: false,
         animationEnabled:false,
@@ -364,6 +373,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -383,6 +393,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         swipeEnabled: false,
         animationEnabled:false,
@@ -399,6 +410,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         swipeEnabled: false,
         animationEnabled:false,
@@ -415,6 +427,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         swipeEnabled: false,
         animationEnabled:false,
@@ -429,6 +442,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -448,6 +462,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         swipeEnabled: false,
         animationEnabled:false,
@@ -462,6 +477,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -481,6 +497,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         swipeEnabled: false,
         animationEnabled:false,
@@ -495,6 +512,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -512,6 +530,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -534,6 +553,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         swipeEnabled: false,
         animationEnabled:false,
@@ -548,6 +568,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -565,6 +586,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -582,6 +604,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {
@@ -602,6 +625,7 @@ const AppNavigator = createStackNavigator({
         headerTitleStyle: {
               fontFamily: "Prompt-SemiBold",
               fontSize: 18,
+              fontWeight: 'normal'
             },
         headerLeft: <HeaderBackButton tintColor="#FFFFFF"
           onPress={() => {

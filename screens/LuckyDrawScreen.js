@@ -309,7 +309,7 @@ const styles = StyleSheet.create({
     color: '#464646',
   },
   checkBoxContainer: {backgroundColor:"#ffffff",borderWidth:0},
-  checkBoxText: {fontFamily:"Prompt-Regular",color: '#464646',},
+  checkBoxText: {fontFamily:"Prompt-Regular",color: '#464646',fontWeight:"normal"},
   textInput:
   {
     fontFamily:"Prompt-Regular",
