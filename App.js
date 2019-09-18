@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
 const navigationOptions = ({ navigation }) => ({
     headerRight: navigation.state.params.showNewButton?<Button buttonStyle={styles.headerRightButton} titleStyle={{fontFamily: "Prompt-SemiBold"}} title={"New"} onPress={navigation.state.params.handleNewMenu} />:"",
     headerLeft: <HeaderBackButton tintColor="#FFFFFF" onPress={() => navigation.goBack(null)} />,
-    title: navigation.state.params.menuTopic==0?'เมนูหลัก':(navigation.state.params.menuTopic==1?'เมนูอื่นๆ':'เมนูไม่ได้ใช้'),
+    title: navigation.state.params.menuTopic==0?'เมนูหลัก':(navigation.state.params.menuTopic==1?'เมนูย่อย':'เมนูไม่ได้ใช้'),
     headerTintColor: '#ffffff',
     headerStyle: {backgroundColor: 'rgba(99,219,199,1)',display:"flex"},
     headerTitleStyle: {
@@ -335,7 +335,7 @@ const AppNavigator = createStackNavigator({
           onPress={() => {
             navigation.state.params.onGoBack(navigation.state.params.discountGroupMenuID);
             navigation.goBack(null);}} />,
-        title: navigation.state.params.menuTopic==0?'เมนูหลัก':(navigation.state.params.menuTopic==1?'เมนูอื่นๆ':'เมนูไม่ได้ใช้'),
+        title: navigation.state.params.menuTopic==0?'เมนูหลัก':(navigation.state.params.menuTopic==1?'เมนูย่อย':'เมนูไม่ได้ใช้'),
         headerTintColor: '#ffffff',
         headerStyle: {backgroundColor: 'rgba(99,219,199,1)',display:"flex"},
         headerTitleStyle: {

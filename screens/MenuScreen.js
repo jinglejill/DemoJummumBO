@@ -5,11 +5,11 @@ var SharedPreferences = require('react-native-shared-preferences');
 
 
 const data = [
-  { key: 'เมนูอาหารหลัก \nและส่วนลด' },
-  { key: 'เมนูอาหารอื่นๆ' },
+  { key: 'เมนูอาหารหลัก\nและส่วนลด' },
+  { key: 'เมนูอาหารย่อย\nของเมนูบุฟเฟ่ต์' },
   { key: 'เมนูอาหารยังไม่เริ่มใช้\n/ไม่ใช้แล้ว' },
   { key: 'รายการโน้ต' },
-  { key: 'Hot Deal' },
+  { key: 'โปรโมชั่น' },
   { key: 'เครื่องพิมพ์' },
   { key: 'Lucky Draw' },
   { key: 'ตั้งค่าร้านอาหาร' },
@@ -44,7 +44,7 @@ export class MenuScreen extends Component
 
   actionOnRow(item) {
    console.log('Selected Item :',item);
-   if(item.key == 'เมนูอาหารหลัก \nและส่วนลด')
+   if(item.key == 'เมนูอาหารหลัก\nและส่วนลด')
    {
      this.props.navigation.navigate('MenuOnOffScreen',
       {
@@ -54,7 +54,7 @@ export class MenuScreen extends Component
         'menuTopic': 0
       });
    }
-   else if(item.key == 'เมนูอาหารอื่นๆ')
+   else if(item.key == 'เมนูอาหารย่อย\nของเมนูบุฟเฟ่ต์')
    {
      this.props.navigation.navigate('MenuOnOffScreen',
       {
