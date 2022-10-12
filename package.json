@@ -28,7 +28,7 @@
     "react-image-crop": "^7.0.2",
     "react-infinite-scroller": "^1.2.4",
     "react-lines-ellipsis": "^0.14.0",
-    "react-native": "^0.58.6",
+    "react-native": "^0.70.2",
     "react-native-actionsheet": "^2.4.2",
     "react-native-customized-image-picker": "^0.1.4",
     "react-native-default-preference": "^1.3.2",
